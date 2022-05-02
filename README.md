@@ -22,7 +22,7 @@ with the device, pass commands to control various parts of the home.
 The KL25Z development board comes with LEDs on-board. An SHT21 temperature and humidity sensor will be interfaced with the KL25Z through I2C. The primary goal of 
 this project is to create a simple home automation system. The user can input commands to board and the board is going to take that input, process it and provide 
 an appropriate action or an output. The user can give the below commands and the response to the commands as follows
-- **Turn on light** - Turns on the LED. The color of the LED is initially set to white with an intensity of 50%. 
+- **Turn on light** - Turns on the LED. The color of the LED is initially set to white with an intensity of 25%. 
                   A turn on light command while the light is already on gives a response saying the light is already on
 - **Turn off light** - Turns off the LED. A turn off light command while the light is already on gives a response saying the light is already off 
 - **Change light color** - This input gives an user to choose the colors from Red, Blue, Green, White. Based on the given color input, the LED changes its color. In                              case of unknown color, it prompts the user to that the color is unknown and cannot change the color.
@@ -48,6 +48,15 @@ Some of the core concepts and functionalities used are:
 - State Machine
 - GPIO lines
 - Testing
+
+## Hardware Setup
+Below is the hardware setup. PTE0 is connected to SDA and PTE1 is connected to SCL
+![kl25z_board](https://user-images.githubusercontent.com/90485608/166333677-4764cb55-4060-46be-9ba6-c28b240c6d0f.png)
+
+![SHT1](https://user-images.githubusercontent.com/90485608/166333965-3ad2aa61-4e8c-4231-8dd1-edee5a1605a5.png)
+
+![sht2](https://user-images.githubusercontent.com/90485608/166334172-3b803c89-5eed-4a1a-baed-388ae8f969c3.png)
+
 
 ## Testing Strategy
 ### Automated Tests
@@ -120,4 +129,9 @@ MCUXpresso IDE Version 11.2.0
 ![baud](https://user-images.githubusercontent.com/90485608/166180844-8ab047cc-9892-4a6d-acd5-dcf385b72fc8.png)
 
 ## Video Link
+https://drive.google.com/file/d/1GImlCSKYZLN1jSd458Iao5LcMUiMhDVm/view?usp=sharing 
+
 ## References
+1. https://github.com/alexander-g-dean/ESF/tree/master/NXP/Code
+2. https://www.farnell.com/datasheets/1780639.pdf
+
