@@ -1,0 +1,11 @@
+core_cm0plus.h:745:22:NVIC_EnableIRQ	16	static
+core_cm0plus.h:791:22:NVIC_ClearPendingIRQ	16	static
+core_cm0plus.h:804:22:NVIC_SetPriority	24	static
+libconfig-arm.h:247:5:__sys_write	24	static
+libconfig-arm.h:241:5:__sys_readc	16	static
+uart.c:53:6:init_uart0	16	static
+uart.c:104:6:send_string	16	static
+uart.c:116:8:receive_string	16	static
+uart.c:123:13:clearUARTErrors	8	static
+uart.c:130:6:UART0_IRQHandler	16	static
+uart.c:158:6:handling_func	664	static

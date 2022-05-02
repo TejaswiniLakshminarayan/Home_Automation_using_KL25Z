@@ -1,0 +1,2 @@
+led.c:24:6:init_leds	8	static
+led.c:75:6:control_leds	16	static

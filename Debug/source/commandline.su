@@ -1,0 +1,15 @@
+commandline.c:35:13:turn_on_light_command	8	static
+commandline.c:47:13:turn_off_light_command	8	static
+commandline.c:60:13:change_light_color_command	8	static
+commandline.c:68:13:change_light_color_red_command	8	static
+commandline.c:84:13:change_light_color_green_command	8	static
+commandline.c:100:13:change_light_color_blue_command	8	static
+commandline.c:116:13:change_light_color_white_command	8	static
+commandline.c:132:13:change_light_color_unknown_command	8	static
+commandline.c:140:13:change_light_intensity_command	16	static
+commandline.c:155:13:set_light_timer_command	8	static
+commandline.c:166:13:set_light_timer_seconds_parser	24	static
+commandline.c:188:13:temperature_command	24	static
+commandline.c:199:13:unknown_command	8	static
+commandline.c:207:13:help_command	8	static
+commandline.c:240:6:parse_user_input	2096	static

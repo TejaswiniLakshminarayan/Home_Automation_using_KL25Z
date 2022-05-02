@@ -1,0 +1,3 @@
+TSI.c:29:6:touch_init	8	static
+TSI.c:45:5:touch_scan	16	static
+TSI.c:59:14:scanned_percentage	16	static

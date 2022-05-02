@@ -1,0 +1,2 @@
+colors.c:16:5:get_hex_by_brightness_and_color	16	static
+colors.c:87:5:get_brightness_int	16	static

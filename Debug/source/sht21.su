@@ -1,0 +1,2 @@
+sht21.c:20:9:get_temperature	16	static
+sht21.c:30:10:get_humidity	24	static

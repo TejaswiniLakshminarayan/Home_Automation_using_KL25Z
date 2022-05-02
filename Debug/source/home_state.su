@@ -1,0 +1,5 @@
+home_state.c:22:9:get_color	8	static
+home_state.c:30:6:set_color	16	static
+home_state.c:38:14:get_brightness	8	static
+home_state.c:46:6:set_brightness	16	static
+home_state.c:53:6:adjust_led	16	static
