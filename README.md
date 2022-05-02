@@ -1,5 +1,8 @@
 # Home Automation using KL25Z
 
+![home](https://user-images.githubusercontent.com/90485608/166335294-7f47bd77-e583-401d-9b6f-a092cd2c0ea2.png)
+
+
 ## Objective
 The objective of this project is to create a home automation system with KL25Z. The home automation system will allow the user to interact through command prompt 
 with the device, pass commands to control various parts of the home.
